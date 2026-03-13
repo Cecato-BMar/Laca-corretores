@@ -574,6 +574,13 @@
   .why-card.accent h3 { color: var(--white); }
   .why-card.accent p { color: rgba(255,255,255,.6); }
   .why-card.accent .why-card-icon { font-size: 2.5rem; flex-shrink: 0; }
+  @media (max-width: 900px) {
+    .why-card.accent {
+      grid-column: span 1;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
 
   /* ── CONTACT ── */
   #contato {
@@ -819,7 +826,6 @@
     .services-grid { grid-template-columns: 1fr; }
     .hero-stats { position: relative; bottom: auto; right: auto; margin-top: 3rem; justify-content: flex-start; }
     .why-cards { grid-template-columns: 1fr; }
-    .why-card.accent { flex-direction: column; }
     .founders { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 600px) {
@@ -873,12 +879,11 @@
       CRECISP Registrados — Praia Grande SP
     </div>
     <h1 class="hero-title">
-      Nós temos o imóvel dos<br>
-      seus <em>sonhos</em><br>
-      
+      Nós temos o imóvel<br>
+      dos seus <em>sonhos</em>
     </h1>
     <p class="hero-desc">
-      Integridade, transparência e profissionalismo na Baixada Santista há mais de 45 anos. 
+      Integridade, transparência e profissionalismo. Moramos em Praia Grande há 45 anos. 
       A família Lacalentola cuida de cada detalhe da sua negociação com segurança e cuidado.
     </p>
     <div class="hero-actions">
@@ -940,7 +945,7 @@
       <span class="section-tag">Quem Somos</span>
       <h2 class="section-title">Uma história de <em>confiança</em> e tradição</h2>
       <p class="section-desc">
-        A Laca Corretores Imobiliários foi fundada pelos irmãos Douglas e Marcelo Lacalentola, corretores devidamente registrados pelo CRECISP, com forte atuação no mercado imobiliário de Praia Grande – SP, onde residem há mais de 45 anos.
+        A Laca Corretores Imobiliários foi fundada pelos irmãos Douglas e Marcelo Lacalentola, corretores devidamente registrados pelo CRECISP, com forte atuação no mercado imobiliário de Praia Grande – SP, onde moramos há 45 anos.
         <br><br>
         Nossa missão é encontrar o imóvel ideal — aquele que realmente corresponde ao sonho e às expectativas de cada cliente — cuidando de todo o processo burocrático com segurança, transparência e tranquilidade.
       </p>
@@ -964,7 +969,7 @@
           <div class="value-icon">🏖️</div>
           <div class="value-content">
             <h4>Conhecimento Local</h4>
-            <p>Mais de 45 anos vivendo e atuando em Praia Grande e na Baixada Santista.</p>
+            <p>Moramos em Praia Grande há 45 anos, conhecendo cada detalhe da região.</p>
           </div>
         </div>
       </div>
@@ -992,34 +997,27 @@
     </div>
     <div class="service-card">
       <div class="service-num">02</div>
-      <div class="service-icon">🔑</div>
-      <div class="service-title">Locação de Imóveis</div>
-      <p class="service-desc">Gestão de locação com segurança para proprietários e inquilinos. Análise de crédito, contratos e acompanhamento durante toda a vigência.</p>
-      <span class="service-tag">Aluguel Seguro</span>
-    </div>
-    <div class="service-card">
-      <div class="service-num">03</div>
       <div class="service-icon">📋</div>
       <div class="service-title">Assessoria Burocrática</div>
       <p class="service-desc">Cuidamos de toda a documentação, cartório, financiamentos e trâmites legais da sua negociação, garantindo total tranquilidade.</p>
       <span class="service-tag">Do início ao fim</span>
     </div>
     <div class="service-card">
-      <div class="service-num">04</div>
+      <div class="service-num">03</div>
       <div class="service-icon">💰</div>
       <div class="service-title">Avaliação de Imóveis</div>
       <p class="service-desc">Análise profissional do valor real do seu imóvel com base no mercado local atual, proporcionando negociações justas e equilibradas.</p>
       <span class="service-tag">Preço Justo</span>
     </div>
     <div class="service-card">
-      <div class="service-num">05</div>
+      <div class="service-num">04</div>
       <div class="service-icon">🌊</div>
       <div class="service-title">Imóveis na Praia</div>
       <p class="service-desc">Especialistas em imóveis à beira-mar, temporada e veraneio. Conheça as melhores oportunidades de Praia Grande e arredores.</p>
       <span class="service-tag">Praia Grande SP</span>
     </div>
     <div class="service-card">
-      <div class="service-num">06</div>
+      <div class="service-num">05</div>
       <div class="service-icon">🤝</div>
       <div class="service-title">Consultoria Personalizada</div>
       <p class="service-desc">Atendimento individualizado, com empatia e dedicação para entender as suas necessidades e encontrar a melhor solução para cada situação.</p>
@@ -1098,11 +1096,11 @@
             <div class="contact-item-value">(13) 99633-3069</div>
           </div>
         </a>
-        <a href="/cdn-cgi/l/email-protection#3854595b595b574a4a5d4c574a5d4b785f55595154165b5755" class="contact-item">
+        <a href="/cdn-cgi/l/email-protection#96faf7f5f7f5f9e4e4f3e2f9e4f3e5d6f1fbf7fffab8f5f9fb" class="contact-item">
           <div class="contact-item-icon">✉️</div>
           <div>
             <div class="contact-item-label">E-mail</div>
-            <div class="contact-item-value"><span class="__cf_email__" data-cfemail="92fef3f1f3f1fde0e0f7e6fde0f7e1d2f5fff3fbfebcf1fdff">[email&#160;protected]</span></div>
+            <div class="contact-item-value"><span class="__cf_email__" data-cfemail="c9a5a8aaa8aaa6bbbbacbda6bbacba89aea4a8a0a5e7aaa6a4">[email&#160;protected]</span></div>
           </div>
         </a>
         <div class="contact-item">
@@ -1146,7 +1144,6 @@
               <option value="">Selecione uma opção...</option>
               <option>Comprar Imóvel</option>
               <option>Vender Imóvel</option>
-              <option>Alugar Imóvel</option>
               <option>Avaliação de Imóvel</option>
               <option>Outro</option>
             </select>
@@ -1265,11 +1262,4 @@ function sendWhatsApp() {
   const texto = `Olá! Meu nome é *${nome}*.\n\n${interesse ? `Interesse: *${interesse}*\n` : ''}${tel ? `Telefone: ${tel}\n` : ''}\n${msg || 'Gostaria de mais informações.'}`;
   const url = `https://wa.me/5513991802430?text=${encodeURIComponent(texto)}`;
 
-  document.getElementById('formSuccess').style.display = 'block';
-  document.getElementById('formArea').style.display = 'none';
-
-  setTimeout(() => window.open(url, '_blank'), 600);
-}
-
-// SMOOTH SCROLL for anchors
-document.querySelectorAll('a[href^="#"]').forEa
+  docume
